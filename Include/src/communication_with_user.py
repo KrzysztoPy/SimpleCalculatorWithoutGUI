@@ -42,5 +42,19 @@ def give_all_number(user_answer):
     what_action_to_perform_on_the_number(lists_with_value_numbers)
 
 
+def create_mathematical_operation(lists_with_value_numbers):
+    return 0
+
+
 def what_action_to_perform_on_the_number(lists_with_value_numbers):
+    lists_with_value_numbers = lists_with_value_numbers
+    mathematical_operation = create_mathematical_operation(lists_with_value_numbers)
+    available_action = ['+', '-', '*', '/', '^', '//', '%', '--']
+    sequence_of_action = ['--', '%', '//', '^', '*', '/', '+', '-']
+
+    # 1 x 1
     pass
+
+
+# Notatka
+

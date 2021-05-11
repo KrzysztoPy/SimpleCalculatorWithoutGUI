@@ -1,0 +1,29 @@
+'''
+Po wybraniu liczby cyfr 
+
+1. Zmień liczbę działań
+2. Element w działaniu 
+3. Za każdym razem pokazuje wyniki dostępny z aktualnego działania np.
+
+2   +   7   x   10   Y   =   9
+|
+//4
+
+Określenie pozycji 
+
+1.          4.
+V           V
+2   +   7   x   10   Y   =   9
+|
+//4
+
+or
+            1.  2.  3. itp.
+                    V
+            2   +   7   x   10   Y   =   9
+-------             |
+WORKING|            |
+FOR    |------------NONE
+NUMBER |
+-------
+'''
