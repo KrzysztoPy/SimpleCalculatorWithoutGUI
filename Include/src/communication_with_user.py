@@ -16,7 +16,31 @@ def enter_number():
         enter_number()
 
 
+def is_number(input_data):
+    try:
+        float(input_data)
+        return True
+    except ValueError:
+        return False
 
 
+def give_all_number(user_answer):
+    lists_with_value_numbers = list()
+    user_answer = int(user_answer)
 
-enter_number()
+    for number in range(0, user_answer):
+        while True:
+            print(comm_gui.enter_value_of_the_number_gui(number))
+            input_data = input()
+            if is_number(input_data):
+                lists_with_value_numbers.append(input_data)
+                break
+            else:
+                comm_gui.clear_console()
+                print(comm_gui.not_integer_or_float_number_gui())
+
+    what_action_to_perform_on_the_number(lists_with_value_numbers)
+
+
+def what_action_to_perform_on_the_number(lists_with_value_numbers):
+    pass
